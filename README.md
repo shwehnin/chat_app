@@ -1,4 +1,3 @@
-
 ## Chatting Application
 ### Overview
 
@@ -59,8 +58,24 @@ Open the project in Android Studio.
 
 **Chat:** Start chatting with other users by sending direct messages.
 
+### Screenshots
 
-## Contributing
+### Register View
+![Register View](https://github.com/shwehnin/chat_app/blob/master/app/src/main/assets/register.png)
+
+### Login View
+![Login View](https://github.com/shwehnin/chat_app/blob/master/app/src/main/assets/login.png)
+
+### Latest Chat Messages View
+![Latest Chat Messages View](https://github.com/shwehnin/chat_app/blob/master/app/src/main/assets/latest.jpg)
+
+### New Message View
+![New Message View](https://github.com/shwehnin/chat_app/blob/master/app/src/main/assets/new_msg.jpg)
+
+### Chat User View
+![Chat User View](https://github.com/shwehnin/chat_app/blob/master/app/src/main/assets/individual.jpg)
+
+### Contributing
 
 Contributions are always welcome!
 
