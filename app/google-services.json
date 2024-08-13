@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792047579386",
+    "project_id": "my-messenger-59de6",
+    "storage_bucket": "my-messenger-59de6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792047579386:android:8737479061077fc479d943",
+        "android_client_info": {
+          "package_name": "com.hninhnin.my_messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFezH6EjSnTWA4zo0X3o2xZCMvJSPwJpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

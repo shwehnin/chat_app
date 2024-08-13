@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">my-messenger</string>
+    <string name="register_btn">Register</string>
+    <string name="click_image_to_upload_your_profile">Click Image to Upload your Profile</string>
+    <string name="start_message">Start Message</string>
+    <string name="logout">Logout</string>
+    <string name="user_profile_image">User Profile Image</string>
+    <string name="title_activity_chat_log">ChatLogActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

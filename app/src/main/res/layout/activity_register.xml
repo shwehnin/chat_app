@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/registerAnimation"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="register.json"
+        app:lottie_loop="true" />
+
+    <EditText
+        android:id="@+id/txtRegisterUserName"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/text_edit_stroke"
+        android:ems="10"
+        android:fontFamily="@font/acme"
+        android:hint="User Name"
+        android:inputType="textNoSuggestions"
+        android:paddingStart="15dp"
+        android:textColor="#555454"
+        android:textColorHint="#555454"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgProfile" />
+
+    <EditText
+        android:id="@+id/txtRegisterPassword"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/text_edit_stroke"
+        android:ems="10"
+        android:fontFamily="@font/acme"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:textColor="#555454"
+        android:textColorHint="#555454"
+        app:layout_constraintEnd_toEndOf="@+id/txtRegisterEmail"
+        app:layout_constraintStart_toStartOf="@+id/txtRegisterEmail"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegisterEmail" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/acme"
+        android:text="@string/register_btn"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtRegisterPassword"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="@+id/txtRegisterPassword"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegisterPassword" />
+
+    <TextView
+        android:id="@+id/txtMember"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/acme"
+        android:gravity="end"
+        android:text="Already member! Login here!"
+        android:textColor="#555454"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/registerBtn"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="@+id/registerBtn"
+        app:layout_constraintTop_toBottomOf="@+id/registerBtn" />
+
+    <EditText
+        android:id="@+id/txtRegisterEmail"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/text_edit_stroke"
+        android:ems="10"
+        android:fontFamily="@font/acme"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15dp"
+        android:textColor="#555454"
+        android:textColorHint="#555454"
+        app:layout_constraintEnd_toEndOf="@+id/txtRegisterUserName"
+        app:layout_constraintStart_toStartOf="@+id/txtRegisterUserName"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegisterUserName" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="236dp"
+        android:src="@drawable/img_upload"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

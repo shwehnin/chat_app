@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_marginTop="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgMsgLeft"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/messenger"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/txtMsgLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/msg_left_bg"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textColor="#F6F2F2"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:maxWidth="250dp" /> <!-- Control the max width as needed -->
+</LinearLayout>
